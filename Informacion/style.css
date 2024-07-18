@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ff3300;
+    color: white;
+    font-size: 16px;
+}
+
+.blue-text {
+    font-family: 'Arial';
+    font-size: 36px;
+    color: black;
+    text-align: center;
+}
+
+.green-text {
+    font-family: 'Arial';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.black-text {
+    font-family: 'Tahoma';
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+#buttonCodigo button{
+    background-color: #e6ebe0;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#img1 img{
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+
+}
+#img2 img{
+    max-width: 60%;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+#banner1 a{
+    font-family: Cambria;
+    font-size: 15px;
+}
+#banner h2{
+    font-family: Cambria;
+    font-size: 15px;
+    text-align:center;
+}

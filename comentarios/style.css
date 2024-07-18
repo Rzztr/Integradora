@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #336666;
+}
+h1 {
+    color:#E84A5F;
+}
+#nombre input, #email input, #telefono input,
+#mensaje textarea, .button{
+    background-color: #99b898;
+    color: yellow;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; 
+}

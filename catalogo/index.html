@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="Logo1.png">
+    <title>Catalogo</title>
+</head>
+<body>
+    <div id="maintitulo"><h1>Productos disponibles</h1></div>
+    <center>
+        <?php
+        // Lee el archivo Excel (asegúrate de tener el archivo 'datos.xlsx' en el mismo directorio)
+        require 'vendor/autoload.php'; // Composer autoloader, adjust the path if needed
+
+        $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load('datos.xlsx');
+        $sheet = $spreadsheet->getActiveSheet();
+
+        echo '<table>';
+        echo '<tr><th>Columna 1</th><th>Columna 2</th></tr>';
+
+        // Iterate over rows
+        foreach ($sheet->getRowIterator() as $row) {
+            $cellIterator = $row->getCellIterator();
+
+            // Skip empty rows
+            if (!$cellIterator->valid()) {
+                continue;
+            }
+
+            // Get data from the first two columns
+            $column1 = $cellIterator->current()->getValue();
+            $cellIterator->next();
+            $column2 = $cellIterator->current()->getValue();
+
+            echo '<tr>';
+            echo '<td>' . $column1 . '</td>';
+            echo '<td>' . $column2 . '</td>';
+            echo '</tr>';
+        }
+
+        echo '</table>';
+        ?>
+        <div id="linkCon"><center><h2><a href="\Informacion\index.html">Para más atención, encuéntrenos en nuestra dirección</a></h2></center></div>
+    </center>
+</body>
+</html>

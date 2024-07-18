@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('local1.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: grayscale(30%); 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#menu button {
+    background-color: #e6ebe0;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#mainText center {
+    background-color: rgba(153, 153, 204, 0.8); 
+    padding: 25px;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    color: black;
+}
+
+#parrafo1 blockquote {
+    font-size: 18px;
+    font-family: Arial;
+    text-align: justify;
+    color: white;
+}
+
+#parrafo2 blockquote {
+    font-size: 18px;
+    font-family: Arial;
+    text-align: justify;
+    color: white;
+}
+
+#banner h2 {
+    font-family: Cambria;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}

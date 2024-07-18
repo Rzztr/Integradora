@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('local1.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: grayscale(30%); 
+}
+h1 {
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.5px rgb(126, 125, 125); /* Añade un borde blanco de 1 píxel alrededor del texto */
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    -webkit-text-stroke: 0.25px black
+}
+li {
+    background-color: rgba(105, 105, 105, 0.541);
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 5px dashed rgb(255, 255, 255);
+    border-radius: 10px;
+    -webkit-text-stroke: 0.25px rgba(255, 255, 255, 0.991);
+}
+
+#parrafo1 blockquote{
+    font-size: 18px;
+    font-family: Arial;
+    text-align: justify;
+    color: white;
+    -webkit-text-stroke: 0.25px black; /* Añade un borde negro de 1 píxel alrededor del texto */
+}
+#parrafo2 blockquote{
+    font-size: 18px;
+    font-family: Arial;
+    text-align: justify;
+    color: white;
+    -webkit-text-stroke: 0.25px black
+}
+
+#banner h2 {
+    font-family: Cambria;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 0.25px black; /* Añade un borde rojo de 1 píxel alrededor del texto */
+}

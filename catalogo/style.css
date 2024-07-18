@@ -1,0 +1,53 @@
+html{
+    background-image: url('local1.jpeg'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: grayscale(50%); /* Ajusta el porcentaje de gris según tus preferencias */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    background: color #004d74;
+}
+#maintitulo h1{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+#img1 img{
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#img2 img{
+    width: 400px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+#img3 img{
+    width: 400px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+#precio1 p{
+    font-family: Arial;
+    font-size: 12px;
+    color: black;
+}
+#precio2 p{
+    font-family: Arial;
+    font-size: 12px;
+    color:black;
+}
+#precio3 p{
+    font-family: Arial;
+    font-size: 12px;
+    color: black;
+}
